@@ -68,9 +68,6 @@ mobs:register_spawn("grojmod:kin", {"default:dirt_with_grass",}, 20, 10, 15000, 
 
 minetest.log("action","\tAdding animal Kin")
 
-minetest.log("action","MOD: animal_kin mod version " .. version .. " loaded")
-
-
 --Nick Mallory Code
 
 local selectionbox_nick = {-0.3, -0.5, -0.3, 0.3, 1.5, 0.3}
@@ -125,9 +122,6 @@ mobs:register_mob("grojmod:nick", {
 mobs:register_spawn("grojmod:nick", {"default:dirt_with_grass",}, 20, 10, 15000, 1, 31000, true)
 
 minetest.log("action","\tAdding animal Nick")
-
-minetest.log("action","MOD: animal_nick mod version " .. version .. " loaded")
-
 
 --Kon Kujira Code
 
@@ -184,9 +178,6 @@ mobs:register_spawn("grojmod:kon", {"default:dirt_with_grass",}, 20, 10, 15000, 
 
 minetest.log("action","\tAdding animal Kon")
 
-minetest.log("action","MOD: animal_kon mod version " .. version .. " loaded")
-
-
 --Corey Riffin Code
 
 local selectionbox_corey = {-0.4, -0.5, -0.4, 0.4, 1.5, 0.4}
@@ -241,9 +232,6 @@ mobs:register_mob("grojmod:corey", {
 mobs:register_spawn("grojmod:corey", {"default:dirt_with_grass",}, 20, 10, 15000, 1, 31000, true)
 
 minetest.log("action","\tAdding animal Corey")
-
-minetest.log("action","MOD: animal_corey mod version " .. version .. " loaded")
-
 
 
 
@@ -307,9 +295,6 @@ mobs:register_spawn("grojmod:trina", {"default:dirt_with_grass",}, 20, 10, 15000
 
 minetest.log("action","\tAdding animal Trina")
 
-minetest.log("action","MOD: animal_trina mod version " .. version .. " loaded")
-
-
 
 --Laney Penn Code
 
@@ -369,10 +354,7 @@ mobs:register_spawn("grojmod:laney", {"default:dirt_with_grass",}, 20, 10, 15000
 
 minetest.log("action","\tAdding animal Laney")
 
-minetest.log("action","MOD: animal_laney mod version " .. version .. " loaded")
-
 --Mina Beff Code
-
 
 local selectionbox_mina = {-0.3, -0, -0.3, 0.3, 2, 0.3}
 
@@ -428,7 +410,5 @@ mobs:register_spawn("grojmod:mina", {"default:dirt_with_grass",}, 20, 10, 15000,
 
 
 minetest.log("action","\tAdding animal Mina")
-
-minetest.log("action","MOD: animal_mina mod version " .. version .. " loaded")
 
 print("MOD: Grojmod Entities Loaded!")
